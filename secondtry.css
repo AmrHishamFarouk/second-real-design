@@ -1,0 +1,48 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    scroll-snap-type: y mandatory;
+    margin: 0;
+    padding: 0;
+}
+h1{
+    margin: 0;
+}
+.child{
+    scroll-snap-align: start;
+    width: 100vw;
+    height: 100vh;
+}
+.sampo{
+    background-image: url(https://hips.hearstapps.com/hmg-prod/images/panorama-milky-way-galaxy-with-stars-and-space-dust-royalty-free-image-1623176828.jpg?crop=0.74996xw:1xh;center,top&resize=1200:*);
+    filter: blur(6px);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.lucha{
+    background-image: url(https://www.gardendesign.com/pictures/images/900x705Max/site_3/zen-garden-japanese-garden-raked-gravel-garden-shutterstock-com_15666.jpg);
+    background-repeat: no-repeat;
+    filter: blur(6px);
+    background-size: cover;
+}
+.himeko{
+    background-image: url(https://mybackdrop.co.uk/wp-content/uploads/2017/06/space-galaxy.jpg);
+    background-repeat: no-repeat;
+    filter: blur(6px);
+    background-size: cover;
+}
+.welt{
+    background-image: url(https://bsmedia.business-standard.com/_media/bs/img/article/2020-10/07/full/1602035787-2512.jpg?im=FeatureCrop);
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    filter: blur(6px);
+    background-size: cover;
+}
+.danheng{
+    background-image: url(https://as1.ftcdn.net/v2/jpg/01/59/59/30/1000_F_159593033_6XH0IaugkdfOZcSg9wHVXzEDwLoniKAf.jpg);
+    background-repeat: no-repeat;
+    filter: blur(6px);
+    background-size: cover;
+}
