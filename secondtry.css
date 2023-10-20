@@ -3,8 +3,17 @@ body{
     padding: 0;
 }
 nav{
-    background-color: rgba(0,0,0,0.3);  /* Set the transparency to 0.3 */
+    display: grid;
+    grid-template-columns: 50vw 50vw;
+    position: absolute;
+    top: 0.7rem;
+    left:0.7rem;
+    background-color: rgba(0,0,0,0.01);  /* Set the transparency to 0.3 */
     overflow: hidden;
+    z-index: 2;
+    color:blueviolet;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.6rem;
 }
 .container{
     overflow: scroll;
@@ -20,25 +29,58 @@ h1{
     scroll-snap-align: start;
     width: 100vw;
     height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(10,1fr);
+    grid-template-rows: repeat(10,1fr);
 }
 .sampo{
     background-image: url(https://hips.hearstapps.com/hmg-prod/images/panorama-milky-way-galaxy-with-stars-and-space-dust-royalty-free-image-1623176828.jpg?crop=0.74996xw:1xh;center,top&resize=1200:*);
-    filter: blur(6px);
+    /* filter: blur(6px); */
     background-repeat: no-repeat;
     background-size: cover;
 }
+.lightcone_sampo{
+    background-image: url(https://static.wikia.nocookie.net/houkai-star-rail/images/8/87/Light_Cone_Eyes_of_the_Prey.png/revision/latest?cb=20230719025631wallpapers);
+    grid-area: 1 / 4 / 11 / 8;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    z-index: 2;
+   
+}
+
 .lucha{
     background-image: url(https://www.gardendesign.com/pictures/images/900x705Max/site_3/zen-garden-japanese-garden-raked-gravel-garden-shutterstock-com_15666.jpg);
     background-repeat: no-repeat;
     filter: blur(6px);
     background-size: cover;
 }
+.lightcone_lucha{
+    background-image: url(https://static.wikia.nocookie.net/houkai-star-rail/images/7/77/Light_Cone_Perfect_Timing.png/revision/latest?cb=20230719025807wallpapers);
+    grid-area: 1 / 4 / 11 / 8;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    z-index: 2;
+   
+}
+
 .himeko{
     background-image: url(https://mybackdrop.co.uk/wp-content/uploads/2017/06/space-galaxy.jpg);
     background-repeat: no-repeat;
     filter: blur(6px);
     background-size: cover;
 }
+.lightcone_himeko{
+    background-image: url(https://static.wikia.nocookie.net/houkai-star-rail/images/d/d4/Light_Cone_Night_on_the_Milky_Way.png/revision/latest?cb=20230719030401);
+    grid-area: 1 / 4 / 11 / 8;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    z-index: 2;
+   
+}
+
 .welt{
     background-image: url(https://bsmedia.business-standard.com/_media/bs/img/article/2020-10/07/full/1602035787-2512.jpg?im=FeatureCrop);
     background-position: 50% 50%;
@@ -46,9 +88,28 @@ h1{
     filter: blur(6px);
     background-size: cover;
 }
+.lightcone_welt{
+    background-image: url(https://static.wikia.nocookie.net/houkai-star-rail/images/b/b7/Light_Cone_In_the_Name_of_the_World.png/revision/latest?cb=20230719030506wallpaper);
+    grid-area: 1 / 4 / 11 / 8;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    z-index: 2;
+   
+}
+
 .danheng{
     background-image: url(https://as1.ftcdn.net/v2/jpg/01/59/59/30/1000_F_159593033_6XH0IaugkdfOZcSg9wHVXzEDwLoniKAf.jpg);
     background-repeat: no-repeat;
     filter: blur(6px);
     background-size: cover;
+}
+.lightcone_danheng{
+    background-image: url(https://static.wikia.nocookie.net/houkai-star-rail/images/d/d0/Light_Cone_Brighter_Than_the_Sun.png/revision/latest?cb=20230830022603wallpapaers);
+    grid-area: 1 / 4 / 11 / 8;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    z-index: 2;
+   
 }
